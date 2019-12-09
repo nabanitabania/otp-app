@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+
+
+<div class="ui main text container segment hey" >
+	<div class="ui huge header">
+		Enter Your Mobile Number :<i class="phone icon"></i>
+	</div>
+	<form class="ui form" action="/verifyform" method="POST">
+		<div class="field">
+			<label>Mobile No.</label>
+			<input type="tel" name="form[number]" placeholder="number">
+		</div>
+		<input class="ui primary button big" type="submit">
+    </form>
+</div>
+<% include ./partials/footer %>

@@ -1,0 +1,16 @@
+i.icon {
+	font-size: 2em;
+}
+
+.ui.segment:first-child {
+    margin-top: 7em;
+}
+
+.ui.centered.card {
+	margin-top: 7em;
+}
+
+.ui.center.aligned.header {
+		margin-top: 7em;
+
+}
