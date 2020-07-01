@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var sendotp=require("sendotp");
-var sendOtp=new sendotp("288851AdWYGYurDi5d4c712e",'Otp for your order is {{otp}}, please do not share it with anybody'); 
+var sendOtp=new sendotp("288851AdWYGYurDi5d4c712e",'OTP for your order is {{otp}}, please do not share it with anybody'); 
 var phnnumber;
 
 
